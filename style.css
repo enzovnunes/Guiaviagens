@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+:root {
+    --cor-primaria: #CCC8AA;
+    --cor-secundaria: #E9E8E8;
+    --cor-terciaria: #191717;
+    --cor-hover: #7D7C7C;
+
+    --fonte-titulos: 'Montserrat', sans-serif;
+    --fonte-textos: 'Lora', serif;
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.corpo__cabecalho__h2 {
+    padding: 1% 0 1% 0;
+    font-family: var(--fonte-titulos);
+    background-color: var(--cor-terciaria);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 140px;
+    
+}
+
+:hover.corpo__cabecalho__h2 {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+}
+
+:hover.Corpo__palavras {
+    font-size: 28px;
+}
+
+.corpo {
+    height: 100vh;
+    padding: 0% 0% 5% 0%;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    
+}
+
+.conteudo__titulo {
+    font-family: var(--fonte-titulos);
+    color: var(--cor-secundaria);
+    padding-right: 20%;
+    padding-bottom: 7%;
+    font-size: 60px;
+    width: 100%;
+}
+
+
+.conteudo__titulo__importante {
+    color: var(--cor-terciaria);
+    
+}
+
+:hover.conteudo__titulo__importante {
+    color: var(--cor-secundaria);
+}
+
+.conteudo__paragrafo {
+    font-size: 24px;
+    font-family: var(--fonte-textos);
+    color: var(--cor-terciaria);
+}
+
+.que__raiva {
+    margin: 10%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+   
+}
+
+.conteudo {
+    font-size: 24px;
+
+}
+
+.imagem__principal {
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
